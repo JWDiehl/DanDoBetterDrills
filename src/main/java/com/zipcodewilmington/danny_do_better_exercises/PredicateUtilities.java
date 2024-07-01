@@ -51,7 +51,11 @@ public class PredicateUtilities {
      * @return true if `x` is less than or equal to `y`
      */
     public Boolean isLessThanOrEqualTo(int x, int y) {
-        return null;
+        if (x <= y) {
+            return true;
+        } else {
+            return false;
+        }
     }
 
 
@@ -59,14 +63,14 @@ public class PredicateUtilities {
      * @return true
      */
     public Boolean returnTrue() {
-        return null;
+        return true;
     }
 
     /**
      * @return false
      */
     public Boolean returnFalse() {
-        return null;
+        return false;
     }
 
 }
